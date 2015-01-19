@@ -1,4 +1,4 @@
-﻿namespace rdlc
+﻿namespace rdlc.Matrix
 {
     partial class Form1
     {
@@ -31,9 +31,9 @@
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.NorthwindDataSet = new rdlc.NorthwindDataSet();
+            this.NorthwindDataSet = new rdlc.Matrix.NorthwindDataSet();
             this.vReportProductsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.vReportProductsTableAdapter = new rdlc.NorthwindDataSetTableAdapters.vReportProductsTableAdapter();
+            this.vReportProductsTableAdapter = new rdlc.Matrix.NorthwindDataSetTableAdapters.vReportProductsTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.NorthwindDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vReportProductsBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -44,7 +44,7 @@
             reportDataSource1.Name = "DataSet1";
             reportDataSource1.Value = this.vReportProductsBindingSource;
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
-            this.reportViewer1.LocalReport.ReportEmbeddedResource = "rdlc.Report1.rdlc";
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "rdlc.Matrix.Report1.rdlc";
             this.reportViewer1.Location = new System.Drawing.Point(0, 0);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.Size = new System.Drawing.Size(682, 356);

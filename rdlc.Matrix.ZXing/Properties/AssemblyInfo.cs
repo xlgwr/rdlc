@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information 
 // associated with an assembly.
-[assembly: AssemblyTitle("rdlc.Matrix")]
+[assembly: AssemblyTitle("rdlc.Matrix.ZXing")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("rdlc.Matrix")]
+[assembly: AssemblyProduct("rdlc.Matrix.ZXing")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("202a647e-edb0-4b1c-94fa-9abc09b24963")]
+[assembly: Guid("69f5886c-b624-4418-9524-a9179faf2eef")]
 
 // Version information for an assembly consists of the following four values:
 //
