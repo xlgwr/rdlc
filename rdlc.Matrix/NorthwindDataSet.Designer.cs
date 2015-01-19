@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace ReportsApplication3 {
+namespace rdlc {
     
     
     /// <summary>
@@ -750,7 +750,7 @@ namespace ReportsApplication3 {
         }
     }
 }
-namespace ReportsApplication3.NorthwindDataSetTableAdapters {
+namespace rdlc.NorthwindDataSetTableAdapters {
     
     
     /// <summary>
@@ -886,7 +886,7 @@ namespace ReportsApplication3.NorthwindDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::ReportsApplication3.Properties.Settings.Default.NorthwindConnectionString;
+            this._connection.ConnectionString = global::rdlc.Properties.Settings.Default.NorthwindConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
